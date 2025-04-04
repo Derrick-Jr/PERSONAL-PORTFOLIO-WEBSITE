@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derrick Kurura - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <em>Theme</em> 
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">DEV DK</span>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Derrick Kurura</span></h1>
+            <div class="typing-container">
+                <span id="typed-text"></span><span class="cursor">&nbsp;</span>
+            </div>
+            <p class="hero-subtitle">Blending Medical Laboratory Science with Data Science, AI & ML</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn primary-btn">Connect With Me</a>
+                <a href="#projects" class="btn secondary-btn">View My Projects</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="blob"></div>
+                <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center space-x-12">
+                    <div class="profile-image-container">
+                        <img src="dee1.jpg" alt="Derrick's Professional Headshot" class="profile-image">
+                    </div>
+                    <div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="profile-card">
+                    <div class="profile-img-placeholder large">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="profile-details">
+                        <h3>Derrick Kurura</h3>
+                        <p>Nairobi, Kenya</p>
+                        <div class="social-icons">
+                            <a href="https://linkedin.com/in/derrick-kurura-421610243" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:kururaderrick@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <a href="https://wa.me/254700383811"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="bio-info">
+                    <p>A dedicated Medical Laboratory Science (MLS) student at Kenyatta University with a passion for revolutionizing healthcare through data science, artificial intelligence (AI) and machine learning (ML).</p>
+                    <!---<p>With hands-on experience in medical diagnostics and leadership roles in academic societies, I bring a unique blend of technical expertise, research acumen, and innovative thinking. I am driven by the potential of technology to enhance healthcare delivery and am committed to spearheading impactful projects that improve patient outcomes.</p>-->
+                </div>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <span class="info-label">Age:</span>
+                        <span class="info-value">21 Years</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Languages:</span>
+                        <span class="info-value">English, Kiswahili, French (Intermediate)</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Phone:</span>
+                        <span class="info-value">+254700383811</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email:</span>
+                        <span class="info-value">kururaderrick@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Location:</span>
+                        <span class="info-value">Nairobi County, Kenya</span>
+                    </div>
+                </div>
+                <div class="about-cta">
+                    <a href="KDMCV.pdf" class="btn primary-btn" id="download-cv">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-flask"></i></div>
+                        <h4>Laboratory Diagnostics</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Data Analysis</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h4>AI & ML Basics</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h4>Graphic Design</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Programming & Tools</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h4>HTML|CSS</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <h4>JavaScript</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h4>Python</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="50"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-file-powerpoint"></i></div>
+                        <h4>Microsoft Office</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="95"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-users"></i></div>
+                        <h4>Leadership</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                        <h4>Communication</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-hands-helping"></i></div>
+                        <h4>Teamwork</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h4>Problem Solving</h4>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-percent="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <div class="section-header">
+            <h2>Education & Experience</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - 2026 (Expected)</div>
+                <div class="timeline-content">
+                    <h3>Kenyatta University</h3>
+                    <h4>Bachelor of Science in Medical Laboratory Science</h4>
+                    <div class="timeline-details">
+                        <p><strong>Leadership Roles:</strong></p>
+                        <ul>
+                            <li>Vice Chairperson, Kenyatta University Medical Scientists Research Society (KUMESRES) (Feb 2024 – Feb 2025)</li>
+                            <li>ICT Coordinator, Association of Kenyatta University Medical Laboratory Students (AKUMELS) (Nov 2024 – Present)</li>
+                            <li>Assistant Director, Standing Committe On Research Exchabge - Kenya Medical Laboratory Students Association (Mar 2024 – Mar 2025)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Feb - June 2025 (Expected)</div>
+                <div class="timeline-content">
+                    <h3>PLP - AFRICA</h3>
+                    <h4>Software Development</h4>
+                    <div class="timeline-details">
+                        <ul>
+                            <li>Software Engineering, Python Programming, Web Development, Database Design and Programming With SQL, Entrepreneurship and Start Up Building</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">November - June 2025 (Expected)</div>
+                <div class="timeline-content">
+                    <h3>Udemy</h3>
+                    <h4>Fullstack Web Development and AI Python(Django)</h4>
+                    <div class="timeline-details">
+                        <ul>
+                            <li>Full-Stack Web Development & AI Integration – The course teaches HTML, CSS, JavaScript, Python, Django, Git, and Linux for web development, alongside AI and machine learning with Pandas, Sklearn, and Keras.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">April - July 2024</div>
+                <div class="timeline-content">
+                    <h3>Kitale County Hospital National Public Health Reference Laboratory</h3>
+                    <h4>Medical Laboratory Attachee</h4>
+                    <div class="timeline-details">
+                        <ul>
+                            <li>Conducted laboratory diagnostics under expert supervision</li>
+                            <li>Developed proficiency in sample collection, phlebotomy, and diagnostic procedures</li>
+                            <li>Contributed to microbiological data analysis using Excel during the ACORN project</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018 - 2022</div>
+                <div class="timeline-content">
+                    <h3>St. Patrick's Mixed Day Secondary School, Makunga</h3>
+                    <h4>Kenya Certificate of Secondary Education (KCSE)</h4>
+                    <div class="timeline-details">
+                        <p>Grade: A-</p>
+                        <p>Society Participation: Science Congress Club</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="VLP-DASHBOARD.PNG" alt="Viral Load Prediction Dashboard">
+                </div>
+                <div class="project-content">
+                    <h3>Viral Load Prediction Dashboard</h3>
+                    <p>A simulatory dashboard for predicting viral load in patients, helping healthcare providers make informed decisions.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JS</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">ML</span>
+                        <span class="tag">Healthcare</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="viral-dashboard.html" class="btn project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="MMPROTECT.jpg" alt="Mammary Protect Project">
+                </div>
+                <div class="project-content">
+                    <h3>Mammary Protect Project</h3>
+                    <p>Developed as part of the Fuel Africa 2024 entrepreneurship program, focusing on healthcare solutions.</p>
+                    <div class="project-tags">
+                        <span class="tag">Healthcare</span>
+                        <span class="tag">Entrepreneurship</span>
+                        <span class="tag">Innovation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="MMP.jpg" class="btn project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="PATHOTRACK.PNG" alt="PATHOTRACK">
+                </div>
+                <div class="project-content">
+                    <h3>PATHOTRACK</h3>
+                    <p>Global Microbiology Surveillance & Analysis Platform that can track, analyze, and forecast microbial threats worldwide with real-time data visualization and advanced analytics.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JS</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Data Analysis</span>
+                        <span class="tag">Microbiology</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="PATHOTRACK.PNG" class="btn project-btn">Ongoing</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="PATHOGEN SURVEILLANCE.PNG" alt="Pathone Surveillance">
+                </div>
+                <div class="project-content">
+                    <h3>Global Microbiology Surveillance Dashboard</h3>
+                    <p>The Global Microbiology Surveillance Dashboard tracks antimicrobial resistance patterns worldwide, providing real-time alerts and data visualization for healthcare professionals and researchers.</p>
+                    <div class="project-tags">
+                        <span class="tag">Research</span>
+                        <span class="tag">Microbiology</span>
+                        <span class="tag">Healthcare</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="PATHOGEN SURVEILLANCE.PNG" class="btn project-btn">Ongoing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications-section">
+        <div class="section-header">
+            <h2>Certifications</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="certifications-container">
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-content">
+                    <h3>AI in Healthcare Webinar Series</h3>
+                    <p>Digital Health Africa & Africa-Canada Artificial Intelligence & Data Consortium</p>
+                    <span class="cert-date">May - June 2024</span>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-content">
+                    <h3>Fuel Africa Innovation Program 2024</h3>
+                    <p>Entrepreneurship program for healthcare and climate solutions (Mammary Protect Project)</p>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-content">
+                    <h3>Creating a Website Using WordPress</h3>
+                    <p>Coursera</p>
+                </div>
+            </div>
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-content">
+                    <h3>Introduction to Data Science Course</h3>
+                    <p>CISCO</p>
+                    <span class="cert-date">Feb 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Nairobi County, Kenya</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>kururaderrick@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <p>+254700383811</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/derrick-kurura-421610243" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:kururaderrick@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/254700383811" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100093469823437" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://x.com/kderricoy?t=LPaqDZVJ6Ss5y0RrmSAH6Q&s=09" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/derrick_kurura?igsh=MW13OWNqODR0czFxbQ==" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Derrick-Jr" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">DEV DK</span>
+                <p><i>In the Lab, I analyze samples to find answers; In Code, I analyze logic to build solutions—both are about making a difference.</i></p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/derrick-kurura-421610243" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:kururaderrick@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/254700383811"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100093469823437"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/kderricoy?t=LPaqDZVJ6Ss5y0RrmSAH6Q&s=09"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/derrick_kurura?igsh=MW13OWNqODR0czFxbQ=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/Derrick-Jr"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Derrick Kurura. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
