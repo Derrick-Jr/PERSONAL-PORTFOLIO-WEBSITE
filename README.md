@@ -28,7 +28,7 @@ A responsive personal portfolio website showcasing my skills, experience, and pr
 
  Prerequisites
 
-- Any modern web browser
+- Any modern web browser, type devderrick.netlify.app to access my portfolio website.
 - Basic code editor (VS Code, Sublime Text, etc.) for modifications
 
  Installation
