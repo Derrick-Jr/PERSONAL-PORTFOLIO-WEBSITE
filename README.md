@@ -1,6 +1,6 @@
 Derrick Kurura - Personal Portfolio
 
-![Portfolio Preview](preview.png)
+![Portfolio Preview](devderrick.netlify.app)
 
  📋 Overview
 
