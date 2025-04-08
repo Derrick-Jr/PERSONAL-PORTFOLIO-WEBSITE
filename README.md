@@ -1,5 +1,5 @@
 Derrick Kurura - Personal Portfolio
-
+devderrick.netlify.app
  📋 Overview
 
 A responsive personal portfolio website showcasing my skills, experience, and projects. This portfolio highlights the unique intersection of Medical Laboratory Science with Data Science, AI, and Machine Learning.
